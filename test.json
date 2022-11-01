@@ -1,0 +1,9 @@
+{
+  "employees": [
+    {
+      "name": "John Doe",
+      "department": "Marketing",
+      "place": "Remote"
+    }
+  ]
+}
