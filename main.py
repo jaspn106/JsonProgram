@@ -80,7 +80,6 @@ class MyWidget(QtWidgets.QWidget):
         print(self.field_one.text())
         print(self.field_two.text())
 
-    # TODO refresh main window with new labels
     def edit_labels(self):
         def update_labels():
             label_data_dict.clear()
@@ -147,18 +146,7 @@ class MyWidget(QtWidgets.QWidget):
         self.edit_window.show()
 
     def test(self):
-        dict = {
-          "employees": [
-            {
-              "name": "John Doe",
-              "department": "Marketing",
-              "place": "Remote"
-            }
-          ]
-        }
-        with open('test.json', 'w') as label_file:
-            json.dump(dict, label_file, indent=2)
-        print("TEST FUN END")
+        pass
 
 
 if __name__ == "__main__":
